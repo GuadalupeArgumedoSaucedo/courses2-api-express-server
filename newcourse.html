@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Course</title>
+    <link rel="stylesheet" href="/css/newcourse.css">
+</head>
+<body>
+    <h1>Add New Course</h1>
+    <form id="newCourseForm">
+        <label for="dept">Department:</label><br>
+        <input type="text" id="dept" name="dept" required><br>
+
+        <label for="courseNum">Course Number:</label><br>
+        <input type="text" id="courseNum" name="courseNum" required><br>
+
+        <label for="courseName">Course Name:</label><br>
+        <input type="text" id="courseName" name="courseName" required><br>
+
+        <label for="instructor">Instructor:</label><br>
+        <input type="text" id="instructor" name="instructor" required><br>
+
+        <label for="startDate">Start Date:</label><br>
+        <input type="date" id="startDate" name="startDate" required><br>
+
+        <label for="numDays">Duration (in days):</label><br>
+        <input type="number" id="numDays" name="numDays" required><br>
+
+        <input type="submit" value="Add Course">
+    </form>
+
+    <script src="/scripts/newcourse.js"></script>
+</body>
+</html>

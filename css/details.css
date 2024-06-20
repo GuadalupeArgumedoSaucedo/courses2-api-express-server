@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.course-details {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
